@@ -15,3 +15,9 @@ Route::get('/', function () {
 Route::get('/about', function() {
     return view('pages/about');
 })->name('about');
+
+
+
+
+
+Route::view('/help','pages/help')->name('help');

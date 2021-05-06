@@ -1,6 +1,6 @@
 
 
-@extends('app')
+@extends('layouts.app')
 
 
 @section('title')
@@ -9,6 +9,9 @@ bienvenue sur Hello city
 
 
 @section('content')
+
+
+
 <p> test de site Laravel </p>
 <div class="backdrop-filter backdrop-grayscale backdrop-blur-md backdrop-contrast-200 ...">
 
